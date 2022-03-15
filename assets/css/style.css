@@ -1,0 +1,217 @@
+/* Imported CSS from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* variables */
+:root{
+    --background:#000016;
+    --light-color:#9999ff85;
+    --nav-background:#000013c2;
+    --text-color:#521477;
+    --link-color:#E1E099;
+    --light-link-color:#e1e0992d;
+    --card-color:#C327AB;
+    --white:#e5e4ff;
+    --heading-font:'Nunito', sans-serif;
+    --text-font:'Source Sans Pro', sans-serif;
+    --handwriting-font:'Redressed', cursive;
+    --container-padding:16px, 20%, 16px, 20%;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--light-color);
+    border-radius: 50px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    font-family: var(--handwriting-font);
+    color: var(--white);
+}
+a{
+    text-decoration: none;
+}
+.input {
+    padding: 10px;
+    height: 60px;
+    background: none;
+    border: 3px solid var(--white);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: var(--white);
+    outline: none;
+}
+
+.input.click {
+    padding: 10px;
+    padding-right: 60px;
+    width: 300px;
+    background: #221b3d;
+    border-radius: 10px;
+}
+.form{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn {
+    background: #a83068;
+    height: 60px;
+    margin-left: 1rem;
+}
+
+.main-heading {
+    text-align: center;
+}
+p{
+    font-family: var(--heading-font);
+}
+.logo{
+    text-align: center;
+}
+.logo img {
+    width: 7rem;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin: 0;
+}
+.people {
+    position: relative;
+    top: 1.1rem;
+    z-index: -1;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.people img {
+    width: 100%;
+    height: 100;
+}
+.typing{
+    color: var(--link-color);
+}
+.footer {
+    padding-top: 1rem;
+    padding-bottom: .1rem;
+    text-align: center;
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    color: var(--background);
+    background-color: var(--white);
+}
+.certificate-footer{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--background);
+    background-color: var(--white);
+}
+.certificate-footer p{
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+.warning{
+    color: red;
+}
+/* certificate box */
+.certificate-box{
+    color: var(--background);
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-container{
+    margin:0rem 1rem;
+}
+.certificate-img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.card-body input{
+    font-family: var(--text-font);
+    border: solid 2px var(--background);
+    color: #01ab6c;
+    border-radius: 50px;
+    padding: .2rem 2rem;
+}
+.copy-link i{
+    border: solid 2px var(--background);
+    padding: .45rem 1rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+.copy-link i:hover{
+    background-color: var(--light-color);
+}
+.soical-icons{
+    margin: 1rem 0rem;
+}
+.soical-icons i{
+    font-size: 18px;
+    border: solid 2px var(--background);
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    margin-left: .5rem;
+}
+.soical-icons .fb{
+    color: #2d3bfc;
+}
+.soical-icons .in{
+    color: black;
+}
+.soical-icons .wp{
+    color: #0ea10e;
+}
+.soical-icons .tw{
+    color: #42a1fa;
+}
+.soical-icons i:hover{
+    background-color: var(--light-color);
+}
+.card{
+    background-color: var(--white);
+    border: 0ch;
+}
+.download-btn{
+    margin-top: 1.5rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem 1rem;
+    background-color: var(--background);
+    color: var(--white);
+    border: solid 3px var(--white);
+    border-radius: 50px;
+}
+.download-btn:hover{
+    background-color: var(--light-color);
+}
+@media screen and (max-width:480px) {
+    .people{
+        width: 100%;
+    }
+    .btn{
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .form{
+        display: grid;
+    }
+}

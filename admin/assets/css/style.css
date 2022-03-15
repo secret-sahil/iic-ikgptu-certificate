@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --blue: #00a1ff;
+    --light-blue: #43b4ff;
+    --black:#130f40;
+    --light-color:rgb(48, 48, 48);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1);
+    --white:#e4e4e4;
+}
+/* cutom scroll bar */
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--blue);
+    border-radius: 0px;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+    text-decoration: none;
+}
+body{
+    color: var(--black);
+}
+.row{
+    margin: 0;
+}
+.btn{
+    border: solid 3px var(--blue);
+    background-color: white;
+    color: var(--black);
+}
+.btn-danger{
+    border: solid 3px red;
+    background-color: white;
+    color: red;
+}
+.btn:hover{
+    border: solid 3px var(--blue);
+    background-color: var(--blue);
+    color: white;
+}
+.btn-danger:hover{
+    border: solid 3px red;
+    background-color: red;
+    color: white;
+}
+/* nav bar */
+.navbar i{
+    margin-left: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--black);
+    border: solid 1px var(--black);
+}
+.navbar i:hover{
+    color: var(--white);
+    background-color: #130f40;
+}
+/* form */
+.form{
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+}
+/* alert css */
+.alert-box{
+    display: grid;
+    margin: 1rem 1rem 0rem 1rem;
+    justify-items: center;
+}
+
+/*add certificate section */
+.add-certificate{
+    margin:0 30%;
+}
+/* certificate table */
+.custom-table{
+    margin: 1rem;
+}
+/* footer */
+.footer p{
+    background-color: var(--blue);
+    padding: 1rem 0rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+
+/* media tags */
+@media screen and (max-width:800px){
+    .add-certificate{
+        margin:0 10%;
+    }
+}
+@media screen and (max-width:576px){
+    .form{
+        display: block;
+    }
+    .alert-box{
+        display: block;
+    }
+    .add-certificate{
+        margin:0 1rem;
+    }
+}
