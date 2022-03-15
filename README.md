@@ -1,4 +1,4 @@
-# iic-ikgptu-certificate
+# IIC IKGPTU Certificate Website
 It a fully SEO optimized dynamic certificate generator website made for IIC IKGPTU
 <br><a href="https://certify.iicikgptu.in/" target="_blank">View Website</a>
 
