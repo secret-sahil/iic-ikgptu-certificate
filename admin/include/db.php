@@ -1,9 +1,5 @@
-<!-- rename this to db.php to use -->
-<!-- Admin Login email: admin@ptu.ac.in
-Password: admin
--->
 <?php 
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname= "certificate_ikgptu";

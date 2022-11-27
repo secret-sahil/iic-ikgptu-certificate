@@ -66,7 +66,7 @@
     </div>
     <footer class="footer">
         <p>
-        © <?php echo date('Y')?> Copyright Reserved with <a href="https://mrsahil.in" target="_blank">Sahil Kumar</a>
+        © <?php echo date('Y')?> Copyright Reserved with <a href="https://mrsahil.in" target="_blank">Sahil Kumar</a><br> Domain name reserved with Navneet Kumar
         </p>
     </footer>
     <!-- custom script file -->
