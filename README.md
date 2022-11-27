@@ -10,6 +10,7 @@ It a fully SEO optimized dynamic certificate generator website made for IIC IKGP
 -   Start XAMPP and start `Apache` and `MySql` server
 -   Create a databse with name `certificate_ikgptu` from `http://localhost/phpmyadmin`
 -   Install `.sql` file from sql folder.
+- Add all the files in your `XAMPP/htdocs` folder
 -   Go to `http://localhost/iic-ikgptu-certificate/admin` for admin login.
     **Default login deatils**
     **Email:** `admin@ptu.ac.in`
